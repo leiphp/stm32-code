@@ -1,0 +1,5 @@
+Dependencies for Project 'template', Target 'Target 1': (DO NOT MODIFY !)
+F (.\User\main.c)(0x5C4097A2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I F:\RunFile\stm32\stm32-02\RTE-I D:\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (User\stm32f10x.h)(0x5C3F57A4)
+F (.\User\startup_stm32f10x_hd.s)(0x5A378792)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I F:\RunFile\stm32\stm32-02\RTE-I D:\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\KEIL5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o .\startup_stm32f10x_hd.o --depend .\startup_stm32f10x_hd.d)
+F (.\User\stm32f10x.h)(0x5C3F57A4)()

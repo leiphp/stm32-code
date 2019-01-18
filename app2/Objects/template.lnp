@@ -1,0 +1,7 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\startup_stm32f10x_hd.o"
+--library_type=microlib --strict --scatter ".\Objects\template.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\template.map" -o .\Objects\template.axf
